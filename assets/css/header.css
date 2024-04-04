@@ -1,14 +1,41 @@
 .header {
   padding: 1.7rem 0;
-  background-color: #F5EFEB;
-  color: #1A3923;
+  background-color: #f5efeb;
+  color: #1a3923;
 }
 .logo {
   text-transform: lowercase;
 }
-.logo>span{
+.logo > span {
   display: block;
   font-weight: 700;
 }
 .page-nav {
+  position: relative;
+  text-align: right;
+}
+.burger {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(./../icons/menu.svg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.main-menu{
+  width: 140px;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  text-align: left;
+}
+.page-nav:hover>.main-menu{
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .burger {
+    display: none;
+  }
 }
