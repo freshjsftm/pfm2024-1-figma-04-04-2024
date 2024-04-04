@@ -1,0 +1,14 @@
+.header {
+  padding: 1.7rem 0;
+  background-color: #F5EFEB;
+  color: #1A3923;
+}
+.logo {
+  text-transform: lowercase;
+}
+.logo>span{
+  display: block;
+  font-weight: 700;
+}
+.page-nav {
+}
