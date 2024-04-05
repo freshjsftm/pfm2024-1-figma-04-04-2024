@@ -1,16 +1,35 @@
 .contact-menu {
 }
 .contact-menu-item {
+  display: inline-block;
+  margin-right: 1rem;
 }
 .contact-menu-link {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 .email {
+  background-image: url(./../icons/email.svg);
 }
 .instagram {
+  background-image: url(./../icons/instagram.svg);
 }
 .behance {
+  background-image: url(./../icons/behance.svg);
 }
 .linkedin {
+  background-image: url(./../icons/linkedin.svg);
 }
-.viber {
+.whatsapp {
+  background-image: url(./../icons/whatsapp.svg);
+}
+
+@media screen and (min-width: 768px){
+  .contact-menu-link {
+    width: 44px;
+    height: 44px;
+  }
 }
